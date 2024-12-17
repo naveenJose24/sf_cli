@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:path/path.dart' as path;
 
 void createFeature(String featureName) {
-  final featurePath = path.join('lib/v2', 'features', featureName.toLowerCase());
+  final featurePath = path.join('lib', 'features', featureName.toLowerCase());
   final featureNameCapitalized = toPascalCase(featureName.toLowerCase());
 
   // Create directory structure
